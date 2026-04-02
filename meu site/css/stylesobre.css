@@ -1,0 +1,90 @@
+
+/* INICIO DO CSS */
+
+*, *::before, *::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+  body {
+  font-family: 'Segoe UI', Arial, sans-serif;
+  font-size:   16px;
+  line-height: 1.6;
+  color:       #1e293b;
+  background-color: #a8d0f865;
+}
+
+/* CABEÇALHO */
+header {
+    background-color: #005a66be;
+    color:            white;
+    text-align:       center;
+    padding:          40px 20px;
+  }
+  
+  header h1 {
+    font-size:   2.2rem;
+    font-weight: 700;
+    margin-bottom: 8px;
+  }
+  
+  header p {
+    font-size:   1.1rem;
+    opacity:     0.85;
+  }
+
+
+  /*  Conteúdo principal */
+main {
+    max-width: 800px;
+    margin:    0 auto; /* centraliza */
+    padding:   40px 20px;
+  }
+  
+  section {
+    margin-bottom: 32px;
+  }
+  
+  h2 {
+    font-size:    1.4rem;
+    font-weight:  700;
+    color:        #093349b2;
+    border-left:  4px solid #054e72;
+    padding-left: 12px;
+    margin-bottom: 12px;
+  }
+
+  /* Listas personalizadas */
+ul {
+    list-style: none;
+    padding:    0;
+  }
+  
+  ul li {
+    padding:       8px 0 8px 20px;
+    border-bottom: 1px solid #e2e8f0;
+    position:      relative;
+    font-size:     .95rem;
+    color:         #475569;
+  }
+  
+  ul li::before {
+    content:  "›";
+    color:    #0284c7;
+    position: absolute;
+    left:     0;
+    font-weight: 700;
+  }
+
+  a {
+    color:           #0284c7;
+    text-decoration: none;
+    font-weight:     600;
+    transition:      color .2s ease;
+  }
+  
+  a:hover {
+    color:           #075985;
+    text-decoration: underline;
+  }
